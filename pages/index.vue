@@ -37,7 +37,6 @@ export default {
     });
 
     this.player = this.cld.videoPlayer("video-player", {
-      playedEventTimes: [10, 20, 30, 40, 50, 60, 70, 80, 90],
       analytics: {
         events: ["ended"],
       },

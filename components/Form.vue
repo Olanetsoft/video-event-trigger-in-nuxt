@@ -57,7 +57,6 @@ export default {
     return {
       name: "",
       feedback: "",
-      videoEnded: "",
     };
   },
   methods: {
