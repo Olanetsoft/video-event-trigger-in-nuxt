@@ -14,15 +14,30 @@
     </div>
     <div class="mb-6">
       <label class="block text-gray-700 text-sm font-bold mb-2" for="feedback">
-        Feedback
+        Video Feedback
       </label>
-      <input
-        class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-        id="feedback"
-        type="text"
-        placeholder="feedback"
-        ref="feedback"
-      />
+        <textarea
+      class="
+        form-control
+        block
+        w-full
+        px-3
+        py-1.5
+        text-base
+        font-normal
+        text-gray-700
+        bg-white bg-clip-padding
+        border border-solid border-gray-300
+        rounded
+        transition
+        ease-in-out
+        m-0
+        focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none
+      "
+      id="exampleFormControlTextarea1"
+      rows="3"
+      placeholder="Your message"
+    ></textarea>
     </div>
     <div class="flex items-center justify-between">
       <button
